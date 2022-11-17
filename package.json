@@ -1,0 +1,25 @@
+{
+  "name": "event-crawler",
+  "version": "0.4.2",
+  "description": "Process and store exchange rate of pools from Binance Smart Chain",
+  "private": false,
+  "engines": {
+    "node": "==14"
+  },
+  "scripts": {
+    "start": "node bin/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/launchzone/price_chart_worker.git"
+  },
+  "author": "dathoangit",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "assisted-json-rpc-provider": "https://github.com/launchzone/AssistedJsonRpcProvider.git#dev",
+    "dotenv": "^16.0.2",
+    "ethers": "5.4.5",
+    "fs": "^0.0.1-security",
+    "stdio_log": "^0.10.0"
+  }
+}
